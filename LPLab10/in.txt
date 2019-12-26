@@ -1,0 +1,16 @@
+unic func fa() 
+{
+	decl unic b = 44427295;
+	rt b;
+};
+genl{
+	decl unic a = 4967295;
+	decl unic b = 429295;
+	decl unic c;
+	a = a~;
+	c = fa();
+	print a;
+	print b;
+	print c;
+
+} 
